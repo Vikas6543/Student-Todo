@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Students Todo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+        integrity="sha384-wxqG4glGB3nlqX0bi23nmgwCSjWIW13BdLUEYC4VIMehfbcro/ATkyDsF/AbIOVe" crossorigin="anonymous" />
+
+
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center pb-2 students-title">
+            <i class="fas fa-id-card text-danger"></i> Student<span class="text-danger"> Details</span>
+        </h2>
+        <form id="students-form">
+            <div class="form-group student-form">
+                <label for="firstname"><span class='label'>Firstname :</span></label>
+                <input type="type" id="firstname" class="form-control w-100">
+            </div>
+            <div class="form-group student-form">
+                <label for="firstname"><span class='label'>LastName :</span></label>
+                <input type="type" id="lastname" class="form-control w-100">
+            </div>
+            <div class="form-group student-form">
+                <label for="firstname"><span class='label'>USN :</span></label>
+                <input type="type" id="usn" class="form-control">
+            </div>
+            <input type="submit" value="Submit" class="btn student-submit btn-danger w-100">
+        </form>
+        <table class="table table-striped mt-3">
+            <thead>
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>USN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="students-list"></tbody>
+        </table>
+        </h1>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
